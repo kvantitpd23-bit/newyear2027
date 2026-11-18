@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#11151e" />
+  <title>Кванториум — центр технологий</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <main class="page">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Кванториум — на главную"><span class="brand-mark">К</span><span><b>КВАНТОРИУМ</b><small>центр технологий и творчества</small></span></a>
+      <div class="top-meta"><span class="live-dot"></span><span>СИСТЕМА АКТИВНА</span><i></i><span id="clock">--:--</span></div>
+    </header>
+    <section class="hero" id="top">
+      <div class="intro"><p class="eyebrow"><span></span> ТЕРРИТОРИЯ БУДУЩЕГО</p><h1>Выбирай.<br><em>Создавай.</em></h1><p class="lead">Открой направление, которое зажигает. Здесь начинается твоя история в науке и технологиях.</p><div class="intro-foot"><span class="scroll-line"></span><span>ИССЛЕДУЙ НАПРАВЛЕНИЯ</span></div></div>
+      <div class="house-wrap tree-wrap">
+        <div class="house-glow"></div>
+        <svg class="house-outline tree-outline" viewBox="0 0 800 900" preserveAspectRatio="none" aria-hidden="true">
+          <path class="tree-fill" d="M400 25 C380 58 354 88 325 120 C342 117 359 120 376 130 C346 160 306 190 260 220 C282 214 306 216 328 226 C290 266 244 302 188 338 C216 330 245 332 272 345 C222 389 169 428 112 465 C158 450 204 453 246 470 C190 521 125 565 55 606 C115 586 177 588 235 607 C194 665 143 715 94 760 C171 737 250 740 338 765 C357 790 380 813 400 832 C420 813 443 790 462 765 C550 740 629 737 706 760 C657 715 606 665 565 607 C623 588 685 586 745 606 C675 565 610 521 554 470 C596 453 642 450 688 465 C631 428 578 389 528 345 C555 332 584 330 612 338 C556 302 510 266 472 226 C494 216 518 214 540 220 C494 190 454 160 424 130 C441 120 458 117 475 120 C446 88 420 58 400 25 Z"/>
+          <path class="house-path" d="M400 25 C380 58 354 88 325 120 C342 117 359 120 376 130 C346 160 306 190 260 220 C282 214 306 216 328 226 C290 266 244 302 188 338 C216 330 245 332 272 345 C222 389 169 428 112 465 C158 450 204 453 246 470 C190 521 125 565 55 606 C115 586 177 588 235 607 C194 665 143 715 94 760 C171 737 250 740 338 765 C357 790 380 813 400 832"/>
+          <path class="house-path" d="M400 25 C420 58 446 88 475 120 C458 117 441 120 424 130 C454 160 494 190 540 220 C518 214 494 216 472 226 C510 266 556 302 612 338 C584 330 555 332 528 345 C578 389 631 428 688 465 C642 453 596 450 554 470 C610 521 675 565 745 606 C685 588 623 586 565 607 C606 665 657 715 706 760 C629 740 550 737 462 765 C443 790 420 813 400 832"/>
+          <path class="tree-trunk" d="M370 880 C370 854 382 837 400 823 C418 837 430 854 430 880 Z"/>
+          <g class="tree-lights" aria-hidden="true">
+            <circle cx="394" cy="145" r="3.5"/><circle cx="406" cy="145" r="3.5"/>
+            <circle cx="360" cy="220" r="3.5"/><circle cx="440" cy="220" r="3.5"/>
+            <circle cx="320" cy="300" r="3.5"/><circle cx="480" cy="300" r="3.5"/>
+            <circle cx="278" cy="390" r="3.5"/><circle cx="522" cy="390" r="3.5"/>
+            <circle cx="225" cy="485" r="3.5"/><circle cx="575" cy="485" r="3.5"/>
+            <circle cx="180" cy="585" r="3.5"/><circle cx="620" cy="585" r="3.5"/>
+            <circle cx="150" cy="685" r="3.5"/><circle cx="650" cy="685" r="3.5"/>
+          </g>
+          <circle class="tree-star" cx="400" cy="28" r="10"/>
+        </svg>
+        <div class="console">
+          <div class="console-heading"><div><span class="console-kicker">ИНТЕРАКТИВНАЯ КАРТА</span><h2>Найди свою<br>квантум-вселенную</h2></div><span class="orbit-icon">✳</span></div>
+          <button class="power" id="power" aria-label="Перезапустить систему"><span class="power-ring"><svg viewBox="0 0 48 48"><path d="M24 7v17M14 13a17 17 0 1 0 20 0"/></svg></span><span class="power-label">ПЕРЕЗАГРУЗИТЬ</span></button>
+          <div class="loader" aria-live="polite"><div class="loader-copy"><span id="loadingText">СИСТЕМА ГОТОВА К ОТКРЫТИЯМ</span><b id="loadPercent">100%</b></div><div class="progress"><span id="progressFill"></span></div></div>
+          <div class="group group-main" id="mainGroups"></div>
+          <div class="group group-small" id="smallGroups"></div>
+          <div class="group group-wide" id="wideGroups"></div>
+          <footer class="console-footer"><span><span class="legend-dot on"></span>НАПРАВЛЕНИЕ ОТКРЫТО</span><span><span class="legend-dot off"></span>НАПРАВЛЕНИЕ ВЫБРАНО</span><span class="footer-id">QNTM / 2025</span></footer>
+        </div>
+        <div class="house-base"></div>
+      </div>
+    </section>
+    <section class="below"><span class="below-index">01 / 10</span><p>Каждое большое открытие начинается с любопытства.</p><span class="below-note">ТВОЙ СЛЕДУЮЩИЙ ШАГ — ЗА ТОБОЙ <span>↗</span></span></section>
+    <div class="toast" id="toast" role="status"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
